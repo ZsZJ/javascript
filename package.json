@@ -19,7 +19,7 @@
     "del": "3.0.0",
     "fetch-mock": "7.2.5",
     "gulp": "3.9.1",
-    "gulp-babel": "7.0.1",
+    "gulp-babel": "8.0.0",
     "gulp-rename": "1.4.0",
     "gulp-sourcemaps": "2.6.4",
     "gulp-typescript": "4.0.2",

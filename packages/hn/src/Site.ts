@@ -155,6 +155,10 @@ class Site {
     return this.pagesLoading[path];
   }
 
+  public getDataByPath(path: string) {
+    return this.getData(this.data.paths[path]);
+  }
+
   private addData(data: HnServerResponse) {
     this.data = deepmerge(this.data, data, { arrayMerge: ({}, b) => b });
   }
